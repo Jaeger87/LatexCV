@@ -1,0 +1,288 @@
+% !TEX program = xelatex % (can also use "lualatex") 
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\begin{document}
+
+\header{Andrea}{Rosati}{Software Developer} % Your name and current job title/field
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{Contact}
++39 3332232755 {\color{gray} {\faPhone}}
+~
+\href{mailto:rosati.1595834@gmail.com}{rosati.1595834@gmail.com} {\color{gray} {\faEnvelope}}
+\href{http://jaegerbox.net}{www.jaegerbox.net} {\color{gray} {\faHome}}
+\href{https://github.com/Jaeger87}{Jaeger87} {\color{gray} {\faGithub}}
+\href{https://it.linkedin.com/in/andrea-rosati-050091a7}{Andrea Rosati} {\color{gray} {\faLinkedin}}
+\section{Languages}
+italian mother tongue
+English \& Spanish fluency
+\section{Programming}
+{\color{red} $\varheartsuit$} GO, C\#, Java
+C++, Python, Processing
+Unreal Engine, Unity
+Scala, Arduino, SQL
+Matlab, Android, Flutter, \LaTeX
+\section{Communities}
+V++, Hebocon organizers,
+\href{http://muglab.uniroma3.it/}{MUG Roma Tre}, Codemotion tech communities 
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+\entry
+{2020--2022}
+{Master’s degree {\normalfont in Computer Game Development}}
+{Università degli Studi di Verona, Italy}
+{Final lab project: \href{https://www.youtube.com/watch?v=lpDQWNgvNis}{\emph{Pokol space adventure}}. A third person action roguelike made with \textbf{Unreal Engine} using both \textbf{C++} and Blueprint. I worked as both a developer and a game designer.
+}
+
+\entry
+{2013--2017}
+{Bachelor’s degree {\normalfont in Computer Science (105/110)}}
+{Sapienza University of Rome, Italy}
+{Thesis title: \emph{Hint Keeper: An Unsolicited Hint System for Serious Games} \\It consists of a fully designed and developed hint system for \textbf{serious games}, focusing on both the analysis of player data and emotions. The system can decide when to provide advice to players who are stuck during a game session.
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience selection}
+
+\begin{entrylist}
+
+\entry
+{Oct 2024 --\\ Now}
+{\href{https://heero.me/it/}{Screevo}}
+{Rome, Italy - Remote}
+{Backend Go, AI Engineer\\
+I work on \href{https://heero.me/it}{\textbf{Heero}}, an \textit{AI-powered app} helping users improve their spoken languages (\textbf{English, French, German, Spanish, Italian}) through interactive voice practice. My role combines backend development in \textbf{Go} and AI engineering, designing and building intelligent systems for interactive learning agents. 
+
+I conceived, designed, and implemented the \href{https://www.linkedin.com/posts/heero-me_heero-englishlearning-englishtips-activity-7386706782179463168-oMN2?utm_source=share&utm_medium=member_desktop&rcm=ACoAABadT_wB4ODVnQ-SWzn69Vmm4Y62SHSIMP8}{\textbf{Journey feature}}, delivering personalized paths of 12 unique scenarios where users engage in role-play exercises to practice languages in real-life situations.
+
+To orchestrate these interactive agent systems, I leveraged \href{https://temporal.io/}{\textbf{Temporal.io}}, a platform for building reliable, stateful workflows at scale.}
+
+
+
+%------------------------------------------------
+\entry
+{Sep 2023 --\\ Oct 2024}
+{\href{https://www.miniclip.com/}{Miniclip}}
+{Genoa, Italy}
+{Game Technology Developer\\
+As a video game technology developer, I mainly worked on creating, maintaining, and integrating native iOS and Android libraries for Unity projects.}
+
+
+%------------------------------------------------
+\entry
+{Dic 2021 --\\ Aug 2023}
+{\href{https://www.rortos.com/}{Rortos S.R.L.}}
+{Verona, Italy - Remote}
+{Video-game developer, DevOps, Tools programmer \\
+I worked as a video game developer for Rortos, where I mostly worked on the following projects:
+\begin{itemize}
+ \item For \href{http://www.rortos.it/wingsofheroes/}{Wings of Heroes}, I contributed to coding the in game-menus UI and handling the technical task of importing graphical assets in the \textbf{Unity} project.
+ \item I took on the task of creating a Continuous Integration (CI) system from scratch by using \textbf{Gitlab}. This system was specifically designed to work smoothly with Unity, enhancing collaboration and streamlining the development workflow. The implementation of this robust CI system significantly increased productivity and minimized obstacles in the development process.
+  \item I developed a custom content management system based on \href{https://www.notion.so/product}{\textbf{Notion}} for \href{https://www.rortos.com/real-flight-simulator/}{Real Flight Simulator} users to submit game content to our studio. This system streamlined the process of content collection and evaluation, fostering better communication and collaboration between the development team and the player community. Additionally, I seamlessly integrated this Notion-based system with the existing Continuous Integration system mentioned earlier, further enhancing the efficiency and effectiveness of our development workflow.
+\end{itemize}}
+
+
+%------------------------------------------------
+\entry
+{2019 -2021}
+{\href{https://tree.it/}{Tree srl}}
+{Rome, Italy}
+{Java Teacher\\
+	At Tree Srl, I served as an instructor for three editions of the "Java Backend" course for the \href{https://tree.it/school/}{tree school}. In this role, I was responsible for defining the course curriculum and creating teaching materials. }
+
+%------------------------------------------------
+
+\entry
+{Oct 2019 --\\ Jun 2020}
+{\href{https://web.infn.it/lab2go/informatica-e-robotica/}{Sapienza university - Lab2GO robotics}}
+{Rome, Italy}
+{Research fellow. Education, Robotics\\
+Lab2GO is a university project aimed at retraining Italian high school laboratories and providing practical lessons to high school students. The project is part of the “Alternanza Scuola Lavoro” program. My main tasks involved assisting students in the laboratory, helping them both learn and develop \textbf{physics experiments} with the \href{https://www.marrtino.org/}{MARRtino} robot.}
+%------------------------------------------------
+
+
+\entry
+{Sep 2018 --\\ Dec 2019}
+{\href{https://www.makinarium.it/}{Makinarium}}
+{Rome, Italy}
+{Animatronic - Android - Arduino\\
+I worked with the Makinarium tech team for the following projects:
+\begin{itemize}
+  \item \href{https://www.youtube.com/watch?v=1vwGtxX7kRk}{\textit{Renato}}: An \textbf{animatronic} puppet for the Italian movie "{\href{https://www.imdb.com/title/tt9269662/fullcredits?ref_=tt_cl_sm\#cast}{Mollami}}"produced by Sky and release on Sky Cinema the 24 November 2019. For this project I developed a control system, the \href{https://video.sky.it/cinema/il-meglio-di-cinema/video/video-mollami-film-renato-come-e-nato-552741}{M.A.K.S.} that allows a puppeteer to control Renato adopting only two physical controllers and an \textbf{Android app} that runs on a tablet. Regarding the hardware on the puppet, we used a custom embedded system built with an Arduino Mega and a \href{https://www.pololu.com/category/102/maestro-usb-servo-controllers}{Pololu maestro servo board}.
+  \item Some special effects for the theatrical show \href{https://www.ilsistina.it/spettacoli/mary-poppins/}{"Mary Poppins il musical"} at Sistina Theater. More precisely I worked on a \textbf{Animatronic} version of Mary Poppins that was able to ”fly” in theaters and on a system aimed to generate a \href{https://www.instagram.com/p/CHAwYOaieJ0/}{smoke tornado}. In addition I supervised the assembling and the usage of these effects at the theater.
+  \item Restoration of some \href{https://it.wikipedia.org/wiki/Carlo_Rambaldi}{Carlo Rambaldi's} works for the exhibition \href{https://www.palazzoesposizioni.it/mostra/carlo-rambaldi-la-meccanica-dei-mostri-da-carlo-rambaldi-a-makinarium}{"La meccanica dei mostri. Da Carlo Rambaldi a Makinarium}. In particular I had the honor to make an animation for one of the fully \href{https://video.repubblica.it/spettacoli-e-cultura/il-dito-di-et-e-la-mano-di-king-kong-in-mostra-a-roma-le-creature-di-rambaldi/346330/346914}{animatronic ET} from the movie \href{https://www.imdb.com/title/tt0083866/}{"E.T. the Extra-Terrestrial"}.
+\end{itemize}
+}
+
+	
+%------------------------------------------------	
+\entry
+{Feb 2018 --\\ May 2019}
+{\href{http://rfidlab.di.uniroma1.it/}{Sapienza university - RFID Lab}}
+{Rome, Italy}
+{Research fellow. Android, Java, C\# Aspnet developer\\
+i worked on an \textbf{IOT project} about a smartwatch, a web application based on the \textbf{Spring framework} and the maintenance of two \textbf{Android apps}.}
+
+
+
+
+%------------------------------------------------
+\entry
+{2017 -- 2020}
+{\href{https://codemotionkids.com/}{Codemotion kids}}
+{Rome, Italy}
+{Kids robotics teacher\\
+My activity with Codemotion Kids took place during important events such as the \href{http://www.rainews.it/dl/rainews/media/Maker-Faire-giovani-inventori-presentano-progetti-innovativi-i-bimbi-vanno-su-Marte-d40b391c-1db8-4a57-85d2-63dc5feb860b.html}{2017 Maker Faire Rome}, and involved teaching programming basics to children aged 6 to 14. In these sessions we adapted \href{https://www.makeblock.com/steam-kits/mbot}{mBot robots} using \href{https://scratch.mit.edu/}{Scratch}.
+}
+
+%------------------------------------------------
+
+\entry
+{Feb 2015 --\\ Feb 2016}
+{\href{https://www.ptvgroup.com/it/}{PTV SISTeMA}}
+{Rome, Italy}
+{Aspnet-C\# backend developer\\ 
+	The project I worked on called "\href{https://www.movesion.com/mobilitymanager/}{mobility manager}" is based on the development of a web application in \textbf{asp-net} to manage the mobility of employees in huge companies
+}
+
+
+%------------------------------------------------
+\end{entrylist}
+
+
+\section{Projects selection}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014}
+{\href{https://www.facebook.com/Open-Basiligotchi-792468080818688/?rc=p}{Open Basiligotchi}}
+{Rome, Italy}
+{Arduino - Android\\
+	Open Basiligotchi is an \textbf{Arduino}-based project that turns a plant into a tamagotchi. It was created during a \href{http://roma.startupitalia.eu/20041-20140331-basilico}{hackathon} and was presented at the \textbf{2014 Maker Faire in Rome}, where it received unexpected success and \href{https://youtu.be/M7RPfu6zRww}{media} attention. The Arduino/Android code and electronic schematics were later released under an \href{https://github.com/Jaeger87/OpenBasiligotchi}{open source license}.
+}
+%------------------------------------------------
+\entry
+{2019}
+{Parrotronic}
+{Rome, Italy}
+{Android - Arduino - Animatronic\\
+	Parrotronic is a system that moves the mouth of an \textbf{animatronic puppet} by recording a voice note from an \textbf{Android app}. While I focused on the source code, \href{https://www.matteodegregori.com/}{Matteo De Gregori} built an animatronic head inspired by the movie \href{https://www.imdb.com/title/tt0129167}{"The Iron Giant"}. I posted a video of the working system on my \href{https://www.instagram.com/p/ByPo2frDxe_/?igshid=1ezs6h0wfh6h2}{Instagram}, and as a result it received many likes and was even appreciated by \href{https://www.imdb.com/name/nm0926015}{Mark Whiting}, the original designer of the Iron Giant, who re-shared our video on his \href{https://www.instagram.com/p/ByQH8zNgRvV/?igshid=1hqwimjkmspk6}{social profile}.
+}
+\entry
+{2022}
+{\href{https://youtu.be/9w6MpkyK10o}{Hack you!}}
+{Rome, Italy}
+{Unity - Videogame - Multiplayer - C\# - Photon\\
+  \href{https://amazingsurprise.itch.io/hack-you}{"Hack You"} is an arcade-style multiplayer online game where players engage in frenetic battles by attacking their opponent's server while defending their own. Developed in \textbf{Unity}, the game utilizes the \textbf{Photon framework} for seamless online multiplayer functionality.
+}
+
+
+%------------------------------------------------
+\entry
+{2024}
+{\href{https://youtu.be/9w6MpkyK10o}{Notion2Pandas}}
+{Genoa, Italy}
+{Python - Package - Pandas - Notion\\
+  \href{https://pypi.org/project/notion2pandas/}{"Notion2Pandas"} is a Python 3 package that extends the capabilities of the excellent \href{https://ramnes.github.io/notion-sdk-py/}{notion-sdk-py} package,  It enables the seamless import of a \textbf{Notion database} into a \textbf{pandas dataframe} and vice versa, requiring just a single line of code.
+}
+
+
+%------------------------------------------------
+\entry
+{2021}
+{PixelCastle}
+{Rome, Italy}
+{Unity - Videogame - Android - C\# - .Core 3.1\\
+	\href{https://www.youtube.com/watch?v=UUO91Af_c6w}{PixelCastle} is a \textbf{2D online multiplayer} turn based strategy game, developed as final exam for the Mobile course in the Verona master of computer game development. Like the \href{https://en.wikipedia.org/wiki/Fire_Emblem}{Fire Emblem games}, In PixelCastle a player control an army and the target is to kill the opponent commander. The game is made in \textbf{Unity} and is designed to be played in mobile systems. \href{https://github.com/Jaeger87/Server-progetto-mobile}{The server} is made in \textbf{.NetCore}, it expose an API interface and use the Entity framework to manage the Database.   
+}
+%------------------------------------------------
+
+\entry
+{2014}
+{Jargon}
+{Rome, Italy}
+{Java - Videogame - Multiplayer\\
+	Jargon is a \textbf{2D multiplayer videogame} for Android and PC developed in \textbf{Java} using the \href{https://libgdx.badlogicgames.com/}{\textbf{libGDX}} framework.
+	It was born as a university project for a course and despite it was completed we never released it on Google playstore. In particular I worked on the netcode and the game's physics.	
+}
+%------------------------------------------------
+
+
+\entry
+{2017}
+{\href{https://globalgamejam.org/2017/games/playmobil-ma}{Playmobil M***A}}
+{Rome, Italy}
+{Processing\\
+	This game was created during the Global Game Jam 2017. It has a particular control system in which a player moves a frog by physically jumping. The game gained a good success and the Italian version of 
+	\href{https://motherboard.vice.com/it/article/aejzz8/global-game-jam-2017-giochi-italiani}{Motherboard Vice} talked about it.
+}
+%------------------------------------------------
+
+
+\entry
+{2015 -- 2025}
+{\href{https://github.com/Jaeger87/Botticelli}{Botticelli}}
+{Rome, Italy}
+{Java\\
+	Botticelli is an opensource Java framework for rapid development of \href{https://telegram.org/}{\textbf{Telegram}} chat bots. The project is entirely managed by me.	
+}
+
+%------------------------------------------------
+\entry
+{2016}
+{\href{http://jaegerbox.net/third-prize-intel-iot-roadshow-andromeda/}{Andromeda}}
+{Rome, Italy}
+{Java\\
+	Andromeda was born during the \textbf{Intel} IOT roadshow, an hackathon hosted by Intel for promoting the \textbf{Galileo 2 board}. It consists of a \href{https://youtu.be/BzG7xg5_9JM}{smart rack designed for bike sharing}, connected to the internet. The project was well received, and my team won third prize in the competition. 
+}
+%------------------------------------------------
+\entry
+{2015 -- Now}
+{\href{https://www.facebook.com/HeboconRoma/}{Hebocon Roma}}
+{Rome, Italy}
+{Event\\
+	Hebocon is a robot wars competition for those technically ungifted. This contest was born in Japan and it was such a worldwide success that even \href{https://makezine.com/2017/05/08/hebocon-crappy-robot-competition/}{Make magazine} talked about it. Together with a friend we brought the hebocon to Rome and we created new competitions like the \href{https://www.youtube.com/watch?v=SF5oQEZsgzA}{paint edition} which  was even hosted in \href{http://portal.nifty.com/kiji/161011197795_1.htm}{Japan}.
+}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+  \vspace{-0.2cm}
+
+\textbf{Professional:} Video game development, embedded systems, IoT, UX, self-hosting, networking, hackathons, software design, education. \textbf{Personal:} Video games, travel, movies, cooking, books, board games, Notion app, Muay Thai, Asian culture, DIY, TV shows, music, digital art, Reddit.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
